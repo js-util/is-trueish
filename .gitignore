@@ -1,0 +1,12 @@
+# remove hidden files
+.*
+
+# remove node modules
+node_modules
+
+# Include .npmignore
+!.npmignore
+
+# include .gitignore
+# and other git files
+!.git*

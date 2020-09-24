@@ -1,0 +1,9 @@
+# Remove git from the npm push
+.git
+
+# Remove the .hidden files,
+# as its really not needed inside node_modules
+# if a developer needs it, the dev should refer to github
+.npmignore
+.gitignore
+.*

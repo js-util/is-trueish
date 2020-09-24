@@ -1,0 +1,29 @@
+{
+	"name": "@js-util/is-trueish",
+	"version": "1.0.0",
+	"description": "A very relaxed varient of `=== true`. Validate that the given param is true, 'true', 1, or '1'",
+
+	"keywords": [
+		"is",
+		"true",
+		"trueish"
+	],
+
+	"main": "isTrueish.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+
+	"author": "picocreator",
+	"license": "MIT",
+	"private": false,
+
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/js-util/is-trueish.git"
+	},
+	
+	"engines": {
+		"node": ">=8.0.0"
+	}
+}
